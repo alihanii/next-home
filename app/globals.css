@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .linkBack {
+    @apply text-blue-600 underline;
+  }
+  .buttonBlackSM {
+    @apply bg-black1 text-white rounded text-center h-h60 w-w183;
+  }
+  .buttonBlueSM {
+    @apply bg-[#4BE3EB] text-black1 rounded text-center h-h60 w-w183;
+  }
+  .buttonBlacklg {
+    @apply bg-black1 text-white rounded text-center h-h60 w-w347;
+  }
+  .buttonLightlg {
+    @apply bg-[#EAEAEA] text-black1 rounded text-center h-h60 w-w347;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  /* background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+  background: #fff;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

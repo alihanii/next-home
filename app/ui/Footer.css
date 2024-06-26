@@ -1,0 +1,8 @@
+.box {
+  background: rgb(48, 48, 48);
+  background: linear-gradient(
+    141deg,
+    #303030 33%,
+    #4e4e4e 100%
+  );
+}

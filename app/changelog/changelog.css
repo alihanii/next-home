@@ -1,0 +1,5 @@
+/* Background */
+.div {
+  background: linear-gradient(90deg, #7de9fe 0%, #82fbed 100%);
+  border-radius: 30px;
+}

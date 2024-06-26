@@ -1,0 +1,16 @@
+.div {
+  /* position: absolute;
+  width: 993.82px;
+  height: 998.05px;
+  left: 259.02px;
+  top: 668.03px; */
+
+  background: conic-gradient(
+    from 360deg at 50% 50%,
+    #4fffdfb5 0deg,
+    #49deffb8 359.65deg,
+    #4fffdfb5 360deg
+  );
+  mix-blend-mode: normal;
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
